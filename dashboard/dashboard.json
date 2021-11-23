@@ -1,0 +1,2929 @@
+{
+   "dashboards": [
+      {
+         "autoswitchEnabled": false,
+         "columnCount": 1,
+         "columnProportion": "1-1",
+         "creationTime": 1636654913253,
+         "dashboardNavigations": {},
+         "description": "",
+         "disabled": false,
+         "gridsterMaxColumns": 12,
+         "hidden": false,
+         "homeTab": false,
+         "id": "2e1e2b4b-6e75-4a06-bca4-e2f335ba152a",
+         "importAttempts": 0,
+         "importComplete": true,
+         "lastUpdateTime": 1637244698304,
+         "lastUpdateUserId": "721480df-18d9-4807-a47f-1c5061ee6ebf",
+         "locked": false,
+         "name": "Appd Dashboarding/FDX - AppD - Health",
+         "namePath": "Appd Dashboarding",
+         "rank": 0,
+         "shared": true,
+         "states": [{
+            "key": "permDashboardTime_dashboard_2e1e2b4b-6e75-4a06-bca4-e2f335ba152a",
+            "value": "o%3AdateRange%3Ds%253AlastHour%5EdateRangeText%3Ds%253A1H"
+         }],
+         "temporary": false,
+         "userId": "721480df-18d9-4807-a47f-1c5061ee6ebf",
+         "widgetInteractions": [
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "98cc8772-0834-4927-82a5-d83e3b6b1ac0",
+               "widgetIdReceiver": "574cb361-75eb-4551-8696-6f11fbbd0291"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "574cb361-75eb-4551-8696-6f11fbbd0291",
+               "widgetIdReceiver": "b27ccf7c-8801-435e-8c95-3da6298324be"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "98cc8772-0834-4927-82a5-d83e3b6b1ac0",
+               "widgetIdReceiver": "41b1d003-f85f-41dd-b3f7-07af5f7ac51a"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "574cb361-75eb-4551-8696-6f11fbbd0291",
+               "widgetIdReceiver": "2e173927-13ff-48f5-ad48-a394981d05d6"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "b27ccf7c-8801-435e-8c95-3da6298324be",
+               "widgetIdReceiver": "64e3f20b-7056-4066-b362-f61d2fe9fd0c"
+            }
+         ],
+         "widgets": [
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [{
+                        "filterTypes": [],
+                        "resourceKind": "002018AppDynamicsAdapterAppDynamics Tier"
+                     }],
+                     "includedResources": null
+                  },
+                  "depth": 1,
+                  "filterMode": "customFilter",
+                  "mode": "all",
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": -1},
+                  "resource": [],
+                  "selectFirstRow": {"selectFirstRow": true},
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Application Tier Selection"
+               },
+               "gridsterCoords": {
+                  "h": 7,
+                  "w": 2,
+                  "x": 1,
+                  "y": 9
+               },
+               "height": 381,
+               "id": "574cb361-75eb-4551-8696-6f11fbbd0291",
+               "states": [
+                  {
+                     "key": "permResGrid_widget_2e1e2b4b-6e75-4a06-bca4-e2f335ba152a_574cb361-75eb-4551-8696-6f11fbbd0291",
+                     "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A228%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A94.25%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253AresourceRating%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah47%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253Aname%2525255Edirection%2525253Ds%252525253AASC%2525255Eid%2525253Ds%252525253Aname"
+                  },
+                  {
+                     "key": "perm_toolbarVisible_widget_2e1e2b4b-6e75-4a06-bca4-e2f335ba152a_574cb361-75eb-4551-8696-6f11fbbd0291",
+                     "value": "b%3A1"
+                  }
+               ],
+               "title": "Application Tier Selection",
+               "type": "ResourceList"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [{
+                     "boxLabel": "",
+                     "metricKey": "external_id",
+                     "metricName": "External ID",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }],
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 1,
+                  "filterMode": "tagPicker",
+                  "mode": "resource",
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": 0},
+                  "resource": [{
+                     "id": "resource:id:0_::_",
+                     "name": "AS-RELY"
+                  }],
+                  "selectFirstRow": {"selectFirstRow": true},
+                  "selfProvider": {"selfProvider": true},
+                  "tagFilter": null,
+                  "title": "Application Selection"
+               },
+               "gridsterCoords": {
+                  "h": 4,
+                  "w": 2,
+                  "x": 1,
+                  "y": 5
+               },
+               "height": 211,
+               "id": "98cc8772-0834-4927-82a5-d83e3b6b1ac0",
+               "states": [{
+                  "key": "permResGrid_widget_2e1e2b4b-6e75-4a06-bca4-e2f335ba152a_98cc8772-0834-4927-82a5-d83e3b6b1ac0",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A124.5%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253AresourceRating%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A161.25%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A75.25%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A129%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A114.5%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah47%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253Aname%2525255Edirection%2525253Ds%252525253AASC%2525255Eid%2525253Ds%252525253Aname"
+               }],
+               "title": "Application Selection",
+               "type": "ResourceList"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "barsCount": 5,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 10,
+                  "filterMode": "tagPicker",
+                  "filterOldMetrics": {"filterOldMetrics": false},
+                  "maxValue": null,
+                  "metric": {
+                     "metricKey": "Application Infrastructure Performance_*_Individual Nodes_*_Hardware Resources|CPU|%Busy",
+                     "name": "Hardware Resources|CPU|Busy (%)"
+                  },
+                  "metricName": "Busy CPU",
+                  "metricUnit": {
+                     "metricUnitId": -1,
+                     "metricUnitName": "Auto"
+                  },
+                  "mode": "all",
+                  "percentileValue": null,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "regenerationTime": 15,
+                  "relationshipMode": {"relationshipMode": [
+                     -1,
+                     0
+                  ]},
+                  "resource": [],
+                  "resourceKind": [{"id": "resourceKind:id:1_::_"}],
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Top-CPU-Busy-Node",
+                  "topOption": "metricsHighestUtilization"
+               },
+               "gridsterCoords": {
+                  "h": 6,
+                  "w": 2,
+                  "x": 1,
+                  "y": 16
+               },
+               "height": 324,
+               "id": "b27ccf7c-8801-435e-8c95-3da6298324be",
+               "title": "Top-CPU-Busy-Node",
+               "type": "ParetoAnalysis"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "chartHeight": 135,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 1,
+                  "filterMode": "tagPicker",
+                  "metricFullName": "Application Performance|Average Response Time (ms)",
+                  "metricKey": "Overall Application Performance|Average Response Time (ms)",
+                  "metricLabel": "Application Errors Per Minute",
+                  "metricName": "Application Performance|Average Response Time (ms)",
+                  "metricType": {"metricType": "custom"},
+                  "metricUnit": {
+                     "metricUnitId": -1,
+                     "metricUnitName": "Default Unit"
+                  },
+                  "mode": "all",
+                  "paginationNumber": 5,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 60,
+                  "relationshipMode": {"relationshipMode": 0},
+                  "resource": [],
+                  "resourceKindId": "resourceKind:id:0_::_",
+                  "selectFirstRow": {"selectFirstRow": false},
+                  "selfProvider": {"selfProvider": false},
+                  "showMetricLabel": {"showMetricLabel": false},
+                  "showResourceName": {"showResourceName": false},
+                  "sortBy": "name",
+                  "sortByDir": {"orderByDir": "asc"},
+                  "tagFilter": null,
+                  "title": "Application Average Response Time"
+               },
+               "gridsterCoords": {
+                  "h": 4,
+                  "w": 12,
+                  "x": 1,
+                  "y": 1
+               },
+               "height": 211,
+               "id": "41b1d003-f85f-41dd-b3f7-07af5f7ac51a",
+               "states": [
+                  {
+                     "key": "perm_toolbarVisible_widget_2e1e2b4b-6e75-4a06-bca4-e2f335ba152a_41b1d003-f85f-41dd-b3f7-07af5f7ac51a",
+                     "value": "b%3A0"
+                  },
+                  {
+                     "key": "permDateRange_HealthChart_widget_2e1e2b4b-6e75-4a06-bca4-e2f335ba152a_41b1d003-f85f-41dd-b3f7-07af5f7ac51a",
+                     "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+                  }
+               ],
+               "title": "Application Average Response Time",
+               "type": "HealthChart"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": "0,10",
+                  "filterMode": "tagPicker",
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "resourceId": null,
+                  "resourceName": null,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Object Relationship (Advanced)",
+                  "traversalSpecId": ""
+               },
+               "gridsterCoords": {
+                  "h": 17,
+                  "w": 6,
+                  "x": 7,
+                  "y": 5
+               },
+               "height": 951,
+               "id": "2e173927-13ff-48f5-ad48-a394981d05d6",
+               "states": [
+                  {
+                     "key": "perm_ResourceRelationshipTree_widget_2e1e2b4b-6e75-4a06-bca4-e2f335ba152a_2e173927-13ff-48f5-ad48-a394981d05d6",
+                     "value": "o%3A"
+                  },
+                  {
+                     "key": "perm_toolbarVisible_widget_2e1e2b4b-6e75-4a06-bca4-e2f335ba152a_2e173927-13ff-48f5-ad48-a394981d05d6",
+                     "value": "b%3A1"
+                  }
+               ],
+               "title": "Object Relationship (Advanced)",
+               "type": "ResourceRelationshipAdvanced"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 2,
+                  "metric": {
+                     "mode": "resourceKind",
+                     "resourceKindMetrics": [
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel51381-1",
+                           "isStringMetric": false,
+                           "metricKey": "Overall Application Performance_*_Individual Nodes_*_|Average Response Time (ms)",
+                           "metricName": "Application Performance|Average Response Time (ms)",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "AppDynamics Node",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel51381-2",
+                           "isStringMetric": false,
+                           "metricKey": "Overall Application Performance_*_Individual Nodes_*_|Calls per Minute",
+                           "metricName": "Application Performance|Calls per Minute",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "AppDynamics Node",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel51381-3",
+                           "isStringMetric": false,
+                           "metricKey": "Overall Application Performance_*_Individual Nodes_*_|Errors per Minute",
+                           "metricName": "Application Performance|Errors per Minute",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "AppDynamics Node",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel51381-4",
+                           "isStringMetric": false,
+                           "metricKey": "Overall Application Performance_*_Individual Nodes_*_|Number of Slow Calls",
+                           "metricName": "Application Performance|Number of Slow Calls",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "AppDynamics Node",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel51381-5",
+                           "isStringMetric": false,
+                           "metricKey": "Application Infrastructure Performance_*_Individual Nodes_*_Hardware Resources|CPU|%Busy",
+                           "metricName": "Hardware Resources|CPU|Busy",
+                           "metricUnitId": "percent",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "AppDynamics Node",
+                           "unit": "%",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel51381-6",
+                           "isStringMetric": false,
+                           "metricKey": "Application Infrastructure Performance_*_Individual Nodes_*_Hardware Resources|Memory|Used %",
+                           "metricName": "Hardware Resources|Memory|Used",
+                           "metricUnitId": "percent",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "AppDynamics Node",
+                           "unit": "%",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel51381-7",
+                           "isStringMetric": false,
+                           "metricKey": "Application Infrastructure Performance_*_Individual Nodes_*_Hardware Resources|Disks|Reads/sec",
+                           "metricName": "Hardware Resources|Disks|Reads/sec",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "AppDynamics Node",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel51381-8",
+                           "isStringMetric": false,
+                           "metricKey": "Application Infrastructure Performance_*_Individual Nodes_*_Hardware Resources|Disks|Writes/sec",
+                           "metricName": "Hardware Resources|Disks|Writes/sec",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "AppDynamics Node",
+                           "yellowBound": null
+                        }
+                     ],
+                     "resourceMetrics": [],
+                     "subMode": "resourceKindAll"
+                  },
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": 0},
+                  "resInteractionMode": null,
+                  "resource": [],
+                  "selfProvider": {"selfProvider": false},
+                  "title": "Node Response Time Chart"
+               },
+               "gridsterCoords": {
+                  "h": 17,
+                  "w": 4,
+                  "x": 3,
+                  "y": 5
+               },
+               "height": 951,
+               "id": "64e3f20b-7056-4066-b362-f61d2fe9fd0c",
+               "states": [
+                  {
+                     "key": "permBtn_pan_permMetricChart_widget_2e1e2b4b-6e75-4a06-bca4-e2f335ba152a_64e3f20b-7056-4066-b362-f61d2fe9fd0c",
+                     "value": "b%3A0"
+                  },
+                  {
+                     "key": "permBtn_zoomAllGraphs_permMetricChart_widget_2e1e2b4b-6e75-4a06-bca4-e2f335ba152a_64e3f20b-7056-4066-b362-f61d2fe9fd0c",
+                     "value": "b%3A0"
+                  },
+                  {
+                     "key": "permDateRange1_permMetricChart_widget_2e1e2b4b-6e75-4a06-bca4-e2f335ba152a_64e3f20b-7056-4066-b362-f61d2fe9fd0c",
+                     "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+                  },
+                  {
+                     "key": "permMetricChart_widget_2e1e2b4b-6e75-4a06-bca4-e2f335ba152a_64e3f20b-7056-4066-b362-f61d2fe9fd0c",
+                     "value": "o%3A"
+                  }
+               ],
+               "title": "Node Response Time Chart",
+               "type": "MetricChart"
+            }
+         ]
+      },
+      {
+         "autoswitchEnabled": false,
+         "columnCount": 1,
+         "columnProportion": "1-1",
+         "creationTime": 1636984705970,
+         "dashboardNavigations": {},
+         "description": "",
+         "disabled": false,
+         "gridsterMaxColumns": 12,
+         "hidden": false,
+         "homeTab": false,
+         "id": "f0da598f-91ea-4448-bac7-759d6aede130",
+         "importAttempts": 0,
+         "importComplete": true,
+         "lastUpdateTime": 1637361644332,
+         "lastUpdateUserId": "721480df-18d9-4807-a47f-1c5061ee6ebf",
+         "locked": false,
+         "name": "Appd Dashboarding/FDX - AppD - Health 2",
+         "namePath": "Appd Dashboarding",
+         "rank": 0,
+         "shared": true,
+         "states": [{
+            "key": "permDashboardTime_dashboard_f0da598f-91ea-4448-bac7-759d6aede130",
+            "value": "o%3AdateRange%3Ds%253AlastHour%5EdateRangeText%3Ds%253A1H"
+         }],
+         "temporary": false,
+         "userId": "721480df-18d9-4807-a47f-1c5061ee6ebf",
+         "widgetInteractions": [
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "8c2894e4-a27d-4e03-a302-22a4164445d5",
+               "widgetIdReceiver": "f76ba620-8126-484a-b508-7d30a6815746"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "8c2894e4-a27d-4e03-a302-22a4164445d5",
+               "widgetIdReceiver": "cd1fb96a-e1a3-4b63-93d3-f94a50369efb"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "f76ba620-8126-484a-b508-7d30a6815746",
+               "widgetIdReceiver": "0085f32d-db98-4a51-8e07-147a566e4d42"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "0085f32d-db98-4a51-8e07-147a566e4d42",
+               "widgetIdReceiver": "ed4ab4c0-2a9d-429f-86d5-dffce3653000"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "ed4ab4c0-2a9d-429f-86d5-dffce3653000",
+               "widgetIdReceiver": "13784759-e04a-4410-a08a-9ee5065c8a13"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "ed4ab4c0-2a9d-429f-86d5-dffce3653000",
+               "widgetIdReceiver": "30fcdbda-b2dd-4fcf-84d2-a26a293dd10f"
+            }
+         ],
+         "widgets": [
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [{
+                        "filterTypes": [],
+                        "resourceKind": "002018AppDynamicsAdapterAppDynamics Tier"
+                     }],
+                     "includedResources": null
+                  },
+                  "depth": 1,
+                  "filterMode": "customFilter",
+                  "mode": "all",
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": -1},
+                  "resource": [],
+                  "selectFirstRow": {"selectFirstRow": true},
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Application Tier Selection"
+               },
+               "gridsterCoords": {
+                  "h": 12,
+                  "w": 2,
+                  "x": 1,
+                  "y": 9
+               },
+               "height": 666,
+               "id": "f76ba620-8126-484a-b508-7d30a6815746",
+               "states": [
+                  {
+                     "key": "permResGrid_widget_f0da598f-91ea-4448-bac7-759d6aede130_f76ba620-8126-484a-b508-7d30a6815746",
+                     "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A94.25%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253AresourceRating%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah47%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253Aname%2525255Edirection%2525253Ds%252525253AASC%2525255Eid%2525253Ds%252525253Aname"
+                  },
+                  {
+                     "key": "perm_toolbarVisible_widget_f0da598f-91ea-4448-bac7-759d6aede130_f76ba620-8126-484a-b508-7d30a6815746",
+                     "value": "b%3A1"
+                  }
+               ],
+               "title": "Application Tier Selection",
+               "type": "ResourceList"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [{
+                     "boxLabel": "",
+                     "metricKey": "external_id",
+                     "metricName": "External ID",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }],
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 1,
+                  "filterMode": "tagPicker",
+                  "mode": "resource",
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": 0},
+                  "resource": [{
+                     "id": "resource:id:0_::_",
+                     "name": "AS-RELY"
+                  }],
+                  "selectFirstRow": {"selectFirstRow": true},
+                  "selfProvider": {"selfProvider": true},
+                  "tagFilter": null,
+                  "title": "Application Selection"
+               },
+               "gridsterCoords": {
+                  "h": 4,
+                  "w": 2,
+                  "x": 1,
+                  "y": 5
+               },
+               "height": 210,
+               "id": "8c2894e4-a27d-4e03-a302-22a4164445d5",
+               "states": [{
+                  "key": "permResGrid_widget_f0da598f-91ea-4448-bac7-759d6aede130_8c2894e4-a27d-4e03-a302-22a4164445d5",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A124.5%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253AresourceRating%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A161.25%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A75.25%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A129%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A114.5%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah47%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }],
+               "title": "Application Selection",
+               "type": "ResourceList"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "chartHeight": 135,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 1,
+                  "filterMode": "tagPicker",
+                  "metricFullName": "Application Performance|Average Response Time (ms)",
+                  "metricKey": "Overall Application Performance|Average Response Time (ms)",
+                  "metricLabel": "Application Errors Per Minute",
+                  "metricName": "Application Performance|Average Response Time (ms)",
+                  "metricType": {"metricType": "custom"},
+                  "metricUnit": {
+                     "metricUnitId": -1,
+                     "metricUnitName": "Default Unit"
+                  },
+                  "mode": "all",
+                  "paginationNumber": 5,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 60,
+                  "relationshipMode": {"relationshipMode": 0},
+                  "resource": [],
+                  "resourceKindId": "resourceKind:id:0_::_",
+                  "selectFirstRow": {"selectFirstRow": false},
+                  "selfProvider": {"selfProvider": false},
+                  "showMetricLabel": {"showMetricLabel": false},
+                  "showResourceName": {"showResourceName": false},
+                  "sortBy": "name",
+                  "sortByDir": {"orderByDir": "asc"},
+                  "tagFilter": null,
+                  "title": "Application Average Response Time"
+               },
+               "gridsterCoords": {
+                  "h": 4,
+                  "w": 12,
+                  "x": 1,
+                  "y": 1
+               },
+               "height": 210,
+               "id": "cd1fb96a-e1a3-4b63-93d3-f94a50369efb",
+               "states": [
+                  {
+                     "key": "permDateRange_HealthChart_widget_f0da598f-91ea-4448-bac7-759d6aede130_cd1fb96a-e1a3-4b63-93d3-f94a50369efb",
+                     "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+                  },
+                  {
+                     "key": "perm_toolbarVisible_widget_f0da598f-91ea-4448-bac7-759d6aede130_cd1fb96a-e1a3-4b63-93d3-f94a50369efb",
+                     "value": "b%3A0"
+                  }
+               ],
+               "title": "Application Average Response Time",
+               "type": "HealthChart"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": "1,10",
+                  "filterMode": "tagPicker",
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "resourceId": null,
+                  "resourceName": null,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Object Relationship (Advanced)",
+                  "traversalSpecId": ""
+               },
+               "gridsterCoords": {
+                  "h": 10,
+                  "w": 7,
+                  "x": 6,
+                  "y": 5
+               },
+               "height": 551,
+               "id": "ed4ab4c0-2a9d-429f-86d5-dffce3653000",
+               "states": [
+                  {
+                     "key": "perm_toolbarVisible_widget_f0da598f-91ea-4448-bac7-759d6aede130_ed4ab4c0-2a9d-429f-86d5-dffce3653000",
+                     "value": "b%3A1"
+                  },
+                  {
+                     "key": "perm_ResourceRelationshipTree_widget_f0da598f-91ea-4448-bac7-759d6aede130_ed4ab4c0-2a9d-429f-86d5-dffce3653000",
+                     "value": "o%3A"
+                  },
+                  {
+                     "key": "perm_viewerType_widget_f0da598f-91ea-4448-bac7-759d6aede130_ed4ab4c0-2a9d-429f-86d5-dffce3653000",
+                     "value": "s%3ArelationshipTree"
+                  }
+               ],
+               "title": "Object Relationship (Advanced)",
+               "type": "ResourceRelationshipAdvanced"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "badge": [
+                     {
+                        "badgeKey": "health",
+                        "badgeName": "Health",
+                        "label": null,
+                        "show": true
+                     },
+                     {
+                        "badgeKey": "risk",
+                        "badgeName": "Risk",
+                        "label": null,
+                        "show": true
+                     },
+                     {
+                        "badgeKey": "efficiency",
+                        "badgeName": "Efficiency",
+                        "label": null,
+                        "show": true
+                     }
+                  ],
+                  "custom": [
+                     {
+                        "id": "extModel36472-1",
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "AppDynamics Host",
+                        "tagFilter": null
+                     },
+                     {
+                        "id": "extModel10372-1",
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "vCenter Server",
+                        "tagFilter": null
+                     },
+                     {
+                        "id": "extModel14065-1",
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Datacenter",
+                        "tagFilter": null
+                     },
+                     {
+                        "id": "extModel30516-5",
+                        "resourceKindId": "resourceKind:id:5_::_",
+                        "resourceKindName": "Virtual Machine",
+                        "tagFilter": null
+                     },
+                     {
+                        "id": "extModel30516-4",
+                        "resourceKindId": "resourceKind:id:6_::_",
+                        "resourceKindName": "Cluster Compute Resource",
+                        "tagFilter": null
+                     },
+                     {
+                        "id": "extModel30516-7",
+                        "resourceKindId": "resourceKind:id:7_::_",
+                        "resourceKindName": "Host System",
+                        "tagFilter": null
+                     },
+                     {
+                        "id": "extModel30516-6",
+                        "resourceKindId": "resourceKind:id:8_::_",
+                        "resourceKindName": "Datastore",
+                        "tagFilter": null
+                     },
+                     {
+                        "id": "extModel38668-1",
+                        "resourceKindId": "resourceKind:id:9_::_",
+                        "resourceKindName": "vSAN Disk Group",
+                        "tagFilter": null
+                     },
+                     {
+                        "id": "extModel30516-8",
+                        "resourceKindId": "resourceKind:id:10_::_",
+                        "resourceKindName": "vSphere Distributed Switch",
+                        "tagFilter": null
+                     }
+                  ],
+                  "mode": "custom",
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "selfProvider": {"selfProvider": false},
+                  "title": "Environment Overview"
+               },
+               "gridsterCoords": {
+                  "h": 10,
+                  "w": 3,
+                  "x": 3,
+                  "y": 5
+               },
+               "height": 552,
+               "id": "0085f32d-db98-4a51-8e07-147a566e4d42",
+               "states": [{
+                  "key": "permSkittlesView_widget_f0da598f-91ea-4448-bac7-759d6aede130_0085f32d-db98-4a51-8e07-147a566e4d42",
+                  "value": "o%3A"
+               }],
+               "title": "Environment Overview",
+               "type": "Skittles"
+            },
+            {
+               "collapsed": false,
+               "config": {},
+               "gridsterCoords": {
+                  "h": 6,
+                  "w": 3,
+                  "x": 3,
+                  "y": 15
+               },
+               "height": 324,
+               "id": "13784759-e04a-4410-a08a-9ee5065c8a13",
+               "states": [
+                  {
+                     "key": "permDateFilter_widget_f0da598f-91ea-4448-bac7-759d6aede130_13784759-e04a-4410-a08a-9ee5065c8a13",
+                     "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+                  },
+                  {
+                     "key": "permViewMode_widget_f0da598f-91ea-4448-bac7-759d6aede130_13784759-e04a-4410-a08a-9ee5065c8a13",
+                     "value": "s%3Atime"
+                  },
+                  {
+                     "key": "permAlertGrid_perm_widget_f0da598f-91ea-4448-bac7-759d6aede130_13784759-e04a-4410-a08a-9ee5065c8a13",
+                     "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A105%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%255Eo%25253Aid%25253Ds%2525253Ah12%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AstartTimeUtc"
+                  }
+               ],
+               "title": "Alert List",
+               "type": "AlertList"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "boxColumns": 4,
+                  "boxHeight": null,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [{
+                        "filterTypes": [],
+                        "resourceKind": "002006VMWAREClusterComputeResource"
+                     }],
+                     "includedResources": null
+                  },
+                  "depth": 3,
+                  "labelSize": 16,
+                  "maxCellCount": 100,
+                  "metric": {
+                     "mode": "resourceKind",
+                     "resourceKindMetrics": [],
+                     "resourceMetrics": [],
+                     "subMode": "resourceKindAll"
+                  },
+                  "mode": {"layoutMode": "fixedView"},
+                  "oldMetricValues": false,
+                  "periodLength": null,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": -1},
+                  "resInteractionMode": null,
+                  "resource": [],
+                  "roundDecimals": null,
+                  "selfProvider": {"selfProvider": false},
+                  "showDT": {"showDT": false},
+                  "showMetricName": {"showMetricName": true},
+                  "showMetricUnit": {"showMetricUnit": true},
+                  "showResourceName": {"showResourceName": false},
+                  "showSparkline": {"showSparkline": false},
+                  "title": "Scoreboard",
+                  "valueSize": 24,
+                  "visualTheme": 7
+               },
+               "gridsterCoords": {
+                  "h": 6,
+                  "w": 7,
+                  "x": 6,
+                  "y": 15
+               },
+               "height": 323,
+               "id": "30fcdbda-b2dd-4fcf-84d2-a26a293dd10f",
+               "title": "Scoreboard",
+               "type": "Scoreboard"
+            }
+         ]
+      },
+      {
+         "autoswitchEnabled": false,
+         "columnCount": 1,
+         "columnProportion": "1-1",
+         "creationTime": 1636819877835,
+         "dashboardNavigations": {},
+         "description": "",
+         "disabled": false,
+         "gridsterMaxColumns": 12,
+         "hidden": false,
+         "homeTab": false,
+         "id": "d20cb91a-37c6-494e-a9c7-424f7e4437b3",
+         "importAttempts": 0,
+         "importComplete": true,
+         "lastUpdateTime": 1637618199013,
+         "lastUpdateUserId": "721480df-18d9-4807-a47f-1c5061ee6ebf",
+         "locked": false,
+         "name": "Appd Dashboarding/FDX - AppD - HeatMap",
+         "namePath": "Appd Dashboarding",
+         "rank": 0,
+         "shared": true,
+         "states": [{
+            "key": "permDashboardTime_dashboard_d20cb91a-37c6-494e-a9c7-424f7e4437b3",
+            "value": "o%3AdateRange%3Ds%253AlastHour%5EdateRangeText%3Ds%253A1H"
+         }],
+         "temporary": false,
+         "userId": "721480df-18d9-4807-a47f-1c5061ee6ebf",
+         "widgetInteractions": [
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "7e8769d6-0d49-4e4c-b698-4f7a46590c0e",
+               "widgetIdReceiver": "0f0f6ad9-fa93-4689-bb03-64b235c6fce9"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "0f0f6ad9-fa93-4689-bb03-64b235c6fce9",
+               "widgetIdReceiver": "5d3d9cd1-d1e7-439c-9657-34ca898b3999"
+            },
+            {
+               "type": "metricId",
+               "widgetIdProvider": "7f496899-1cbc-40be-8b19-6240ba42dfab",
+               "widgetIdReceiver": "ddcd6ac3-12c8-4a5f-840f-c3fdf5bf5e2d"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "7e8769d6-0d49-4e4c-b698-4f7a46590c0e",
+               "widgetIdReceiver": "715b9b79-6c50-4bc1-9266-c510316ea49a"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "715b9b79-6c50-4bc1-9266-c510316ea49a",
+               "widgetIdReceiver": "7f496899-1cbc-40be-8b19-6240ba42dfab"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "0f0f6ad9-fa93-4689-bb03-64b235c6fce9",
+               "widgetIdReceiver": "63e751de-0615-4fbd-a754-a276e960b185"
+            }
+         ],
+         "widgets": [
+            {
+               "collapsed": false,
+               "config": {
+                  "configs": [{
+                     "attributeKind": {
+                        "id": "System Attributes|health",
+                        "value": "vRealize Operations Generated|Self - Health Score"
+                     },
+                     "attributePaths": ["/root/allMetricsRoot/GROUP_System Attributes/System Attributes|health"],
+                     "color": {
+                        "maxValue": 100,
+                        "minValue": 0,
+                        "thresholds": {
+                           "colors": [
+                              "#FF0000",
+                              "#888800",
+                              "#00FF00"
+                           ],
+                           "values": [
+                              0,
+                              50,
+                              100
+                           ]
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "System Attributes|health",
+                        "value": "vRealize Operations Generated|Self - Health Score"
+                     },
+                     "customFilter": {
+                        "excludedResources": null,
+                        "filter": [{
+                           "filterTypes": [],
+                           "resourceKind": "002018AppDynamicsAdapterAppDynamics Tier"
+                        }],
+                        "includedResources": null
+                     },
+                     "filterMode": "customFilter",
+                     "focusOnGroups": false,
+                     "groupBy": {
+                        "adapterKind": "AppDynamicsAdapter",
+                        "id": "004null002018AppDynamicsAdapterAppDynamics Tier",
+                        "parentId": "AppDynamicsAdapter",
+                        "parentText": "Management Pack for AppDynamics",
+                        "resourceKind": "AppDynamics Tier",
+                        "text": "AppDynamics Tier",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:11_::_"
+                     },
+                     "mode": {"mode": true},
+                     "name": "App Tiers Health",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:11_::_",
+                     "sizeBy": {
+                        "metricKey": "badge|health",
+                        "value": "Badge|Health (%)"
+                     },
+                     "solidColoring": false,
+                     "tagFilter": null,
+                     "thenBy": null
+                  }],
+                  "depth": 10,
+                  "mode": "resource",
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 60,
+                  "relationshipMode": {"relationshipMode": -1},
+                  "resource": [{
+                     "id": "resource:id:0_::_",
+                     "name": "AS-RELY"
+                  }],
+                  "selfProvider": {"selfProvider": true},
+                  "title": "App-Tier-Heatmap",
+                  "value": 0
+               },
+               "gridsterCoords": {
+                  "h": 4,
+                  "w": 12,
+                  "x": 1,
+                  "y": 1
+               },
+               "height": 210,
+               "id": "7e8769d6-0d49-4e4c-b698-4f7a46590c0e",
+               "states": [
+                  {
+                     "key": "permBtn_zoomInBtn_perm_HeatMap_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_7e8769d6-0d49-4e4c-b698-4f7a46590c0e",
+                     "value": "b%3A0"
+                  },
+                  {
+                     "key": "perm_toolbarVisible_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_7e8769d6-0d49-4e4c-b698-4f7a46590c0e",
+                     "value": "b%3A0"
+                  },
+                  {
+                     "key": "permBtn_showTextBtn_perm_HeatMap_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_7e8769d6-0d49-4e4c-b698-4f7a46590c0e",
+                     "value": "b%3A0"
+                  },
+                  {
+                     "key": "perm_HeatMap_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_7e8769d6-0d49-4e4c-b698-4f7a46590c0e",
+                     "value": "o%3A"
+                  }
+               ],
+               "title": "App-Tier-Heatmap",
+               "type": "Heatmap"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 1,
+                  "metric": {
+                     "mode": "resourceKind",
+                     "resourceKindMetrics": [],
+                     "resourceMetrics": [
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel27073-2",
+                           "isStringMetric": false,
+                           "metricKey": "Overall Application Performance|Average Response Time (ms)",
+                           "metricName": "Application Performance|Average Response Time (ms)",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel27073-3",
+                           "isStringMetric": false,
+                           "metricKey": "Overall Application Performance|HTTP Error Codes per Minute",
+                           "metricName": "Application Performance|HTTP Error Codes per Minute",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel27073-4",
+                           "isStringMetric": false,
+                           "metricKey": "Overall Application Performance|Normal Average Response Time (ms)",
+                           "metricName": "Application Performance|Normal Average Response Time (ms)",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel27073-5",
+                           "isStringMetric": false,
+                           "metricKey": "Overall Application Performance|Infrastructure Errors per Minute",
+                           "metricName": "Application Performance|Infrastructure Errors per Minute",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        }
+                     ],
+                     "subMode": "resourceKindAll"
+                  },
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": 0},
+                  "resInteractionMode": null,
+                  "resource": [],
+                  "selfProvider": {"selfProvider": false},
+                  "title": "AS-Rely Metric Chart"
+               },
+               "gridsterCoords": {
+                  "h": 9,
+                  "w": 6,
+                  "x": 7,
+                  "y": 14
+               },
+               "height": 494,
+               "id": "ddcd6ac3-12c8-4a5f-840f-c3fdf5bf5e2d",
+               "states": [
+                  {
+                     "key": "permBtn_zoomAllGraphs_permMetricChart_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_ddcd6ac3-12c8-4a5f-840f-c3fdf5bf5e2d",
+                     "value": "b%3A0"
+                  },
+                  {
+                     "key": "perm_toolbarVisible_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_ddcd6ac3-12c8-4a5f-840f-c3fdf5bf5e2d",
+                     "value": "b%3A0"
+                  },
+                  {
+                     "key": "permMetricChart_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_ddcd6ac3-12c8-4a5f-840f-c3fdf5bf5e2d",
+                     "value": "o%3A"
+                  },
+                  {
+                     "key": "permDateRange1_permMetricChart_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_ddcd6ac3-12c8-4a5f-840f-c3fdf5bf5e2d",
+                     "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+                  },
+                  {
+                     "key": "permBtn_pan_permMetricChart_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_ddcd6ac3-12c8-4a5f-840f-c3fdf5bf5e2d",
+                     "value": "b%3A0"
+                  }
+               ],
+               "title": "AS-Rely Metric Chart",
+               "type": "MetricChart"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "alertAction": [],
+                  "alertImpact": [],
+                  "criticalityLevel": [],
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [{
+                        "filterTypes": [],
+                        "resourceKind": "002018AppDynamicsAdapterAppDynamics Node"
+                     }],
+                     "includedResources": null
+                  },
+                  "depth": 10,
+                  "filterMode": "customFilter",
+                  "mode": "all",
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": [
+                     -1,
+                     0
+                  ]},
+                  "resource": [],
+                  "selfProvider": {"selfProvider": false},
+                  "state": [],
+                  "status": [],
+                  "tagFilter": null,
+                  "title": "Alert List",
+                  "type": []
+               },
+               "gridsterCoords": {
+                  "h": 5,
+                  "w": 3,
+                  "x": 1,
+                  "y": 18
+               },
+               "height": 267,
+               "id": "5d3d9cd1-d1e7-439c-9657-34ca898b3999",
+               "states": [
+                  {
+                     "key": "permAlertGrid_perm_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_5d3d9cd1-d1e7-439c-9657-34ca898b3999",
+                     "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%255Eo%25253Aid%25253Ds%2525253Ah12%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AstartTimeUtc"
+                  },
+                  {
+                     "key": "permViewMode_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_5d3d9cd1-d1e7-439c-9657-34ca898b3999",
+                     "value": "s%3Atime"
+                  },
+                  {
+                     "key": "permDateFilter_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_5d3d9cd1-d1e7-439c-9657-34ca898b3999",
+                     "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+                  }
+               ],
+               "title": "Alert List",
+               "type": "AlertList"
+            },
+            {
+               "collapsed": false,
+               "config": {},
+               "gridsterCoords": {
+                  "h": 6,
+                  "w": 3,
+                  "x": 1,
+                  "y": 12
+               },
+               "height": 324,
+               "id": "63e751de-0615-4fbd-a754-a276e960b185",
+               "title": "Container Details",
+               "type": "ContainerDetails"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "configs": [{
+                     "attributeKind": {
+                        "id": "System Attributes|health",
+                        "value": "vRealize Operations Generated|Self - Health Score"
+                     },
+                     "attributePaths": ["/root/allMetricsRoot/GROUP_System Attributes/System Attributes|health"],
+                     "color": {
+                        "maxValue": 100,
+                        "minValue": 0,
+                        "thresholds": {
+                           "colors": [
+                              "#FF0000",
+                              "#FFFF00",
+                              "#00FF00"
+                           ],
+                           "values": [
+                              0,
+                              50,
+                              100
+                           ]
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "System Attributes|health",
+                        "value": "vRealize Operations Generated|Self - Health Score"
+                     },
+                     "customFilter": {
+                        "excludedResources": null,
+                        "filter": [
+                           {
+                              "filterTypes": [],
+                              "resourceKind": "002018AppDynamicsAdapterAppDynamics Host"
+                           },
+                           {
+                              "filterTypes": [],
+                              "resourceKind": "002018AppDynamicsAdapterAppDynamics Node"
+                           }
+                        ],
+                        "includedResources": null
+                     },
+                     "filterMode": "customFilter",
+                     "focusOnGroups": false,
+                     "groupBy": {
+                        "adapterKind": "AppDynamicsAdapter",
+                        "id": "004null002018AppDynamicsAdapterAppDynamics Node",
+                        "parentId": "AppDynamicsAdapter",
+                        "parentText": "Management Pack for AppDynamics",
+                        "resourceKind": "AppDynamics Node",
+                        "text": "AppDynamics Node",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:1_::_"
+                     },
+                     "mode": {"mode": true},
+                     "name": "In-Tier Node HeatMap",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "sizeBy": {
+                        "metricKey": "badge|health",
+                        "value": "Badge|Health (%)"
+                     },
+                     "solidColoring": false,
+                     "tagFilter": null,
+                     "thenBy": null
+                  }],
+                  "depth": 5,
+                  "mode": "all",
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": -1},
+                  "resource": [],
+                  "selfProvider": {"selfProvider": false},
+                  "title": "In-Tier-Heatmap",
+                  "value": 0
+               },
+               "gridsterCoords": {
+                  "h": 7,
+                  "w": 3,
+                  "x": 1,
+                  "y": 5
+               },
+               "height": 380,
+               "id": "0f0f6ad9-fa93-4689-bb03-64b235c6fce9",
+               "states": [{
+                  "key": "perm_HeatMap_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_0f0f6ad9-fa93-4689-bb03-64b235c6fce9",
+                  "value": "o%3A"
+               }],
+               "title": "In-Tier-Heatmap",
+               "type": "Heatmap"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "title": "Metric Picker"
+               },
+               "gridsterCoords": {
+                  "h": 9,
+                  "w": 3,
+                  "x": 4,
+                  "y": 14
+               },
+               "height": 494,
+               "id": "7f496899-1cbc-40be-8b19-6240ba42dfab",
+               "states": [
+                  {
+                     "key": "permMetricPicker_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_7f496899-1cbc-40be-8b19-6240ba42dfab",
+                     "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1"
+                  },
+                  {
+                     "key": "permFetchCollectingMetrics_permMetricPicker_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_7f496899-1cbc-40be-8b19-6240ba42dfab",
+                     "value": "b%3A0"
+                  },
+                  {
+                     "key": "permFetchPropertyMetrics_permMetricPicker_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_7f496899-1cbc-40be-8b19-6240ba42dfab",
+                     "value": "b%3A0"
+                  },
+                  {
+                     "key": "permFetchCommonMetrics_permMetricPicker_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_7f496899-1cbc-40be-8b19-6240ba42dfab",
+                     "value": "b%3A0"
+                  }
+               ],
+               "title": "Metric Picker",
+               "type": "MetricPicker"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": "0,10",
+                  "filterMode": "tagPicker",
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "resourceId": null,
+                  "resourceName": null,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Object Relationship (Advanced)",
+                  "traversalSpecId": ""
+               },
+               "gridsterCoords": {
+                  "h": 9,
+                  "w": 9,
+                  "x": 4,
+                  "y": 5
+               },
+               "height": 495,
+               "id": "715b9b79-6c50-4bc1-9266-c510316ea49a",
+               "states": [
+                  {
+                     "key": "perm_toolbarVisible_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_715b9b79-6c50-4bc1-9266-c510316ea49a",
+                     "value": "b%3A1"
+                  },
+                  {
+                     "key": "perm_viewerType_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_715b9b79-6c50-4bc1-9266-c510316ea49a",
+                     "value": "s%3ArelationshipTopology"
+                  },
+                  {
+                     "key": "perm_ResourceRelationshipTree_widget_d20cb91a-37c6-494e-a9c7-424f7e4437b3_715b9b79-6c50-4bc1-9266-c510316ea49a",
+                     "value": "o%3A"
+                  }
+               ],
+               "title": "Object Relationship (Advanced)",
+               "type": "ResourceRelationshipAdvanced"
+            }
+         ]
+      },
+      {
+         "autoswitchEnabled": false,
+         "columnCount": 1,
+         "columnProportion": "1-1",
+         "creationTime": 1637350666585,
+         "dashboardNavigations": {},
+         "description": "",
+         "disabled": false,
+         "gridsterMaxColumns": 12,
+         "hidden": false,
+         "homeTab": false,
+         "id": "a837612c-7e2c-4730-87f3-66e2741d95e4",
+         "importAttempts": 0,
+         "importComplete": true,
+         "lastUpdateTime": 1637680924516,
+         "lastUpdateUserId": "721480df-18d9-4807-a47f-1c5061ee6ebf",
+         "locked": false,
+         "name": "Appd Dashboarding/FDX - AppD - InfraView",
+         "namePath": "Appd Dashboarding",
+         "rank": 0,
+         "shared": false,
+         "states": [{
+            "key": "permDashboardTime_dashboard_a837612c-7e2c-4730-87f3-66e2741d95e4",
+            "value": "o%3AdateRange%3Ds%253AlastHour%5EdateRangeText%3Ds%253A1H"
+         }],
+         "temporary": false,
+         "userId": "721480df-18d9-4807-a47f-1c5061ee6ebf",
+         "widgetInteractions": [
+            {
+               "type": "metricId",
+               "widgetIdProvider": "46c4e200-63e3-4e9d-93c5-6cef6456a005",
+               "widgetIdReceiver": "8aed9406-a60e-497c-80f4-2c4cf19bd1fe"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "6b8854e1-757e-4eb7-a706-5f3c1bb6c416",
+               "widgetIdReceiver": "af061a8e-a6dc-46d9-b61f-044673bcd54c"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "af061a8e-a6dc-46d9-b61f-044673bcd54c",
+               "widgetIdReceiver": "cdde8ca6-7816-4aca-8f06-f2d4cdf37c75"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "cdde8ca6-7816-4aca-8f06-f2d4cdf37c75",
+               "widgetIdReceiver": "46c4e200-63e3-4e9d-93c5-6cef6456a005"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "cdde8ca6-7816-4aca-8f06-f2d4cdf37c75",
+               "widgetIdReceiver": "af55aa0f-85fa-45fd-8503-69aa230376e8"
+            }
+         ],
+         "widgets": [
+            {
+               "collapsed": false,
+               "config": {
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 1,
+                  "metric": {
+                     "mode": "resourceKind",
+                     "resourceKindMetrics": [],
+                     "resourceMetrics": [
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel27073-2",
+                           "isStringMetric": false,
+                           "metricKey": "Overall Application Performance|Average Response Time (ms)",
+                           "metricName": "Application Performance|Average Response Time (ms)",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel27073-3",
+                           "isStringMetric": false,
+                           "metricKey": "Overall Application Performance|HTTP Error Codes per Minute",
+                           "metricName": "Application Performance|HTTP Error Codes per Minute",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel27073-4",
+                           "isStringMetric": false,
+                           "metricKey": "Overall Application Performance|Normal Average Response Time (ms)",
+                           "metricName": "Application Performance|Normal Average Response Time (ms)",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 2,
+                           "handleOldColoring": false,
+                           "id": "extModel27073-5",
+                           "isStringMetric": false,
+                           "metricKey": "Overall Application Performance|Infrastructure Errors per Minute",
+                           "metricName": "Application Performance|Infrastructure Errors per Minute",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        }
+                     ],
+                     "subMode": "resourceKindAll"
+                  },
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": 0},
+                  "resInteractionMode": null,
+                  "resource": [],
+                  "selfProvider": {"selfProvider": false},
+                  "title": "AS-Rely Metric Chart"
+               },
+               "gridsterCoords": {
+                  "h": 13,
+                  "w": 6,
+                  "x": 7,
+                  "y": 17
+               },
+               "height": 722,
+               "id": "8aed9406-a60e-497c-80f4-2c4cf19bd1fe",
+               "states": [
+                  {
+                     "key": "perm_toolbarVisible_widget_a837612c-7e2c-4730-87f3-66e2741d95e4_8aed9406-a60e-497c-80f4-2c4cf19bd1fe",
+                     "value": "b%3A1"
+                  },
+                  {
+                     "key": "permDateRange1_permMetricChart_widget_a837612c-7e2c-4730-87f3-66e2741d95e4_8aed9406-a60e-497c-80f4-2c4cf19bd1fe",
+                     "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+                  },
+                  {
+                     "key": "permBtn_pan_permMetricChart_widget_a837612c-7e2c-4730-87f3-66e2741d95e4_8aed9406-a60e-497c-80f4-2c4cf19bd1fe",
+                     "value": "b%3A0"
+                  },
+                  {
+                     "key": "permMetricChart_widget_a837612c-7e2c-4730-87f3-66e2741d95e4_8aed9406-a60e-497c-80f4-2c4cf19bd1fe",
+                     "value": "o%3A"
+                  },
+                  {
+                     "key": "permBtn_zoomAllGraphs_permMetricChart_widget_a837612c-7e2c-4730-87f3-66e2741d95e4_8aed9406-a60e-497c-80f4-2c4cf19bd1fe",
+                     "value": "b%3A0"
+                  }
+               ],
+               "title": "AS-Rely Metric Chart",
+               "type": "MetricChart"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "title": "Metric Picker"
+               },
+               "gridsterCoords": {
+                  "h": 13,
+                  "w": 3,
+                  "x": 4,
+                  "y": 17
+               },
+               "height": 722,
+               "id": "46c4e200-63e3-4e9d-93c5-6cef6456a005",
+               "states": [
+                  {
+                     "key": "permFetchPropertyMetrics_permMetricPicker_widget_a837612c-7e2c-4730-87f3-66e2741d95e4_46c4e200-63e3-4e9d-93c5-6cef6456a005",
+                     "value": "b%3A0"
+                  },
+                  {
+                     "key": "permFetchCollectingMetrics_permMetricPicker_widget_a837612c-7e2c-4730-87f3-66e2741d95e4_46c4e200-63e3-4e9d-93c5-6cef6456a005",
+                     "value": "b%3A0"
+                  },
+                  {
+                     "key": "permFetchCommonMetrics_permMetricPicker_widget_a837612c-7e2c-4730-87f3-66e2741d95e4_46c4e200-63e3-4e9d-93c5-6cef6456a005",
+                     "value": "b%3A0"
+                  },
+                  {
+                     "key": "permMetricPicker_widget_a837612c-7e2c-4730-87f3-66e2741d95e4_46c4e200-63e3-4e9d-93c5-6cef6456a005",
+                     "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1"
+                  }
+               ],
+               "title": "Metric Picker",
+               "type": "MetricPicker"
+            },
+            {
+               "collapsed": false,
+               "config": {},
+               "gridsterCoords": {
+                  "h": 13,
+                  "w": 3,
+                  "x": 1,
+                  "y": 17
+               },
+               "height": 722,
+               "id": "af55aa0f-85fa-45fd-8503-69aa230376e8",
+               "title": "Top Alerts",
+               "type": "ProblemAlertsList"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "badge": [
+                     {
+                        "badgeKey": "health",
+                        "badgeName": "Health",
+                        "label": null,
+                        "show": true
+                     },
+                     {
+                        "badgeKey": "risk",
+                        "badgeName": "Risk",
+                        "label": null,
+                        "show": true
+                     },
+                     {
+                        "badgeKey": "efficiency",
+                        "badgeName": "Efficiency",
+                        "label": null,
+                        "show": true
+                     }
+                  ],
+                  "custom": [],
+                  "mode": "custom",
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "selfProvider": {"selfProvider": false},
+                  "title": "Environment Overview"
+               },
+               "gridsterCoords": {
+                  "h": 9,
+                  "w": 3,
+                  "x": 1,
+                  "y": 8
+               },
+               "height": 495,
+               "id": "af061a8e-a6dc-46d9-b61f-044673bcd54c",
+               "states": [{
+                  "key": "permSkittlesView_widget_a837612c-7e2c-4730-87f3-66e2741d95e4_af061a8e-a6dc-46d9-b61f-044673bcd54c",
+                  "value": "o%3A"
+               }],
+               "title": "Environment Overview",
+               "type": "Skittles"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [{
+                        "filterTypes": [],
+                        "resourceKind": "002018AppDynamicsAdapterAppDynamics Tier"
+                     }],
+                     "includedResources": null
+                  },
+                  "depth": 1,
+                  "filterMode": "customFilter",
+                  "mode": "resource",
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": -1},
+                  "resource": [{
+                     "id": "resource:id:0_::_",
+                     "name": "AS-RELY"
+                  }],
+                  "selectFirstRow": {"selectFirstRow": true},
+                  "selfProvider": {"selfProvider": true},
+                  "tagFilter": null,
+                  "title": "AppTier Selection"
+               },
+               "gridsterCoords": {
+                  "h": 7,
+                  "w": 3,
+                  "x": 1,
+                  "y": 1
+               },
+               "height": 381,
+               "id": "6b8854e1-757e-4eb7-a706-5f3c1bb6c416",
+               "states": [
+                  {
+                     "key": "permResGrid_widget_a837612c-7e2c-4730-87f3-66e2741d95e4_6b8854e1-757e-4eb7-a706-5f3c1bb6c416",
+                     "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253AresourceRating%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah47%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+                  },
+                  {
+                     "key": "perm_toolbarVisible_widget_a837612c-7e2c-4730-87f3-66e2741d95e4_6b8854e1-757e-4eb7-a706-5f3c1bb6c416",
+                     "value": "b%3A1"
+                  }
+               ],
+               "title": "AppTier Selection",
+               "type": "ResourceList"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": "4,5",
+                  "filterMode": "tagPicker",
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "resourceId": null,
+                  "resourceName": null,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Object Relationship (Advanced)",
+                  "traversalSpecId": ""
+               },
+               "gridsterCoords": {
+                  "h": 16,
+                  "w": 9,
+                  "x": 4,
+                  "y": 1
+               },
+               "height": 894,
+               "id": "cdde8ca6-7816-4aca-8f06-f2d4cdf37c75",
+               "states": [
+                  {
+                     "key": "perm_viewerType_widget_a837612c-7e2c-4730-87f3-66e2741d95e4_cdde8ca6-7816-4aca-8f06-f2d4cdf37c75",
+                     "value": "s%3ArelationshipTopology"
+                  },
+                  {
+                     "key": "perm_ResourceRelationshipTree_widget_a837612c-7e2c-4730-87f3-66e2741d95e4_cdde8ca6-7816-4aca-8f06-f2d4cdf37c75",
+                     "value": "o%3A"
+                  },
+                  {
+                     "key": "perm_toolbarVisible_widget_a837612c-7e2c-4730-87f3-66e2741d95e4_cdde8ca6-7816-4aca-8f06-f2d4cdf37c75",
+                     "value": "b%3A1"
+                  }
+               ],
+               "title": "Object Relationship (Advanced)",
+               "type": "ResourceRelationshipAdvanced"
+            }
+         ]
+      },
+      {
+         "autoswitchEnabled": false,
+         "columnCount": 1,
+         "columnProportion": "1-1",
+         "creationTime": 1637156559307,
+         "dashboardNavigations": {},
+         "description": "",
+         "disabled": false,
+         "gridsterMaxColumns": 12,
+         "hidden": false,
+         "homeTab": false,
+         "id": "eedee81d-fd36-40eb-b0be-c5f88890accc",
+         "importAttempts": 0,
+         "importComplete": true,
+         "lastUpdateTime": 1637693834547,
+         "lastUpdateUserId": "721480df-18d9-4807-a47f-1c5061ee6ebf",
+         "locked": false,
+         "name": "Appd Dashboarding/FDX - AppD - NOC View",
+         "namePath": "Appd Dashboarding",
+         "rank": 0,
+         "shared": true,
+         "states": [{
+            "key": "permDashboardTime_dashboard_eedee81d-fd36-40eb-b0be-c5f88890accc",
+            "value": "o%3AdateRange%3Ds%253AlastHour%5EdateRangeText%3Ds%253A1H"
+         }],
+         "temporary": false,
+         "userId": "721480df-18d9-4807-a47f-1c5061ee6ebf",
+         "widgetInteractions": [],
+         "widgets": [
+            {
+               "collapsed": false,
+               "config": {
+                  "chartHeight": 135,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 1,
+                  "filterMode": "tagPicker",
+                  "metricFullName": "Application Performance|Average Response Time (ms)",
+                  "metricKey": "Overall Application Performance|Average Response Time (ms)",
+                  "metricLabel": "Application Errors Per Minute",
+                  "metricName": "Application Performance|Average Response Time (ms)",
+                  "metricType": {"metricType": "custom"},
+                  "metricUnit": {
+                     "metricUnitId": -1,
+                     "metricUnitName": "Default Unit"
+                  },
+                  "mode": "resource",
+                  "paginationNumber": 5,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 60,
+                  "relationshipMode": {"relationshipMode": 0},
+                  "resource": [{
+                     "id": "resource:id:0_::_",
+                     "name": "AS-RELY"
+                  }],
+                  "resourceKindId": "resourceKind:id:0_::_",
+                  "selectFirstRow": {"selectFirstRow": false},
+                  "selfProvider": {"selfProvider": true},
+                  "showMetricLabel": {"showMetricLabel": false},
+                  "showResourceName": {"showResourceName": false},
+                  "sortBy": "name",
+                  "sortByDir": {"orderByDir": "asc"},
+                  "tagFilter": null,
+                  "title": "Application Average Response Time (ms)"
+               },
+               "gridsterCoords": {
+                  "h": 4,
+                  "w": 6,
+                  "x": 1,
+                  "y": 1
+               },
+               "height": 210,
+               "id": "75e4e49f-c915-4bc2-9f7e-a25affd3747c",
+               "states": [
+                  {
+                     "key": "perm_toolbarVisible_widget_eedee81d-fd36-40eb-b0be-c5f88890accc_75e4e49f-c915-4bc2-9f7e-a25affd3747c",
+                     "value": "b%3A0"
+                  },
+                  {
+                     "key": "permDateRange_HealthChart_widget_eedee81d-fd36-40eb-b0be-c5f88890accc_75e4e49f-c915-4bc2-9f7e-a25affd3747c",
+                     "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+                  }
+               ],
+               "title": "Application Average Response Time (ms)",
+               "type": "HealthChart"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "configs": [{
+                     "attributeKind": {
+                        "id": "System Attributes|health",
+                        "value": "vRealize Operations Generated|Self - Health Score"
+                     },
+                     "attributePaths": ["/root/allMetricsRoot/GROUP_System Attributes/System Attributes|health"],
+                     "color": {
+                        "maxValue": 100,
+                        "minValue": 0,
+                        "thresholds": {
+                           "colors": [
+                              "#FF0000",
+                              "#888800",
+                              "#00FF00"
+                           ],
+                           "values": [
+                              0,
+                              50,
+                              100
+                           ]
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "System Attributes|health",
+                        "value": "vRealize Operations Generated|Self - Health Score"
+                     },
+                     "customFilter": {
+                        "excludedResources": null,
+                        "filter": [],
+                        "includedResources": null
+                     },
+                     "filterMode": "tagPicker",
+                     "focusOnGroups": false,
+                     "groupBy": {
+                        "adapterKind": "AppDynamicsAdapter",
+                        "id": "004null002018AppDynamicsAdapterAppDynamics Tier",
+                        "parentId": "AppDynamicsAdapter",
+                        "parentText": "Management Pack for AppDynamics",
+                        "resourceKind": "AppDynamics Tier",
+                        "text": "AppDynamics Tier",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:11_::_"
+                     },
+                     "mode": {"mode": true},
+                     "name": "App Tiers Health",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:11_::_",
+                     "sizeBy": {
+                        "metricKey": "badge|health",
+                        "value": "Badge|Health (%)"
+                     },
+                     "solidColoring": false,
+                     "tagFilter": null,
+                     "thenBy": null
+                  }],
+                  "depth": 10,
+                  "mode": "resource",
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 60,
+                  "relationshipMode": {"relationshipMode": -1},
+                  "resource": [{
+                     "id": "resource:id:0_::_",
+                     "name": "AS-RELY"
+                  }],
+                  "selfProvider": {"selfProvider": true},
+                  "title": "App-Tier-Heatmap",
+                  "value": 0
+               },
+               "gridsterCoords": {
+                  "h": 4,
+                  "w": 6,
+                  "x": 7,
+                  "y": 1
+               },
+               "height": 210,
+               "id": "b9b6be9a-24b3-4dff-a6dd-1d34ed8e8195",
+               "states": [{
+                  "key": "perm_HeatMap_widget_eedee81d-fd36-40eb-b0be-c5f88890accc_b9b6be9a-24b3-4dff-a6dd-1d34ed8e8195",
+                  "value": "o%3A"
+               }],
+               "title": "App-Tier-Heatmap",
+               "type": "Heatmap"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "boxColumns": 2,
+                  "boxHeight": null,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 1,
+                  "labelSize": 16,
+                  "maxCellCount": 100,
+                  "metric": {
+                     "mode": "resource",
+                     "resourceKindMetrics": [],
+                     "resourceMetrics": [
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel5651-1",
+                           "isStringMetric": false,
+                           "link": "",
+                           "metricKey": "Overall Application Performance|Calls per Minute",
+                           "metricName": "Application Performance|Calls per Minute",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel5651-2",
+                           "isStringMetric": false,
+                           "link": "",
+                           "metricKey": "Overall Application Performance|Errors per Minute",
+                           "metricName": "Application Performance|Errors per Minute",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel5651-3",
+                           "isStringMetric": false,
+                           "link": "",
+                           "metricKey": "Overall Application Performance|Exceptions per Minute",
+                           "metricName": "Application Performance|Exceptions per Minute",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel5651-4",
+                           "isStringMetric": false,
+                           "link": "",
+                           "metricKey": "Overall Application Performance|HTTP Error Codes per Minute",
+                           "metricName": "Application Performance|HTTP Error Codes per Minute",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel5651-5",
+                           "isStringMetric": false,
+                           "link": "",
+                           "metricKey": "Overall Application Performance|Infrastructure Errors per Minute",
+                           "metricName": "Application Performance|Infrastructure Errors per Minute",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel5651-6",
+                           "isStringMetric": false,
+                           "link": "",
+                           "metricKey": "Overall Application Performance|Number of Slow Calls",
+                           "metricName": "Application Performance|Number of Slow Calls",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel5651-7",
+                           "isStringMetric": false,
+                           "link": "",
+                           "metricKey": "Overall Application Performance|Number of Slow End to End Messages",
+                           "metricName": "Application Performance|Number of Slow End to End Messages",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel5651-8",
+                           "isStringMetric": false,
+                           "link": "",
+                           "metricKey": "Overall Application Performance|Number of Very Slow Calls",
+                           "metricName": "Application Performance|Number of Very Slow Calls",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel5651-9",
+                           "isStringMetric": false,
+                           "link": "",
+                           "metricKey": "Overall Application Performance|Stall Count",
+                           "metricName": "Application Performance|Stall Count",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        }
+                     ]
+                  },
+                  "mode": {"layoutMode": "fixedView"},
+                  "oldMetricValues": true,
+                  "periodLength": "dashboardTime",
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 60,
+                  "relationshipMode": {"relationshipMode": 0},
+                  "resInteractionMode": null,
+                  "resource": [],
+                  "roundDecimals": 2,
+                  "selfProvider": {"selfProvider": true},
+                  "showDT": {"showDT": false},
+                  "showMetricName": {"showMetricName": true},
+                  "showMetricUnit": {"showMetricUnit": true},
+                  "showResourceName": {"showResourceName": false},
+                  "showSparkline": {"showSparkline": true},
+                  "title": "Application Performance Scoreboard",
+                  "valueSize": 24,
+                  "visualTheme": 7
+               },
+               "gridsterCoords": {
+                  "h": 10,
+                  "w": 6,
+                  "x": 7,
+                  "y": 5
+               },
+               "height": 552,
+               "id": "1b9820be-a398-4a02-841e-54e5eaae7c1f",
+               "title": "Application Performance Scoreboard",
+               "type": "Scoreboard"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "boxColumns": 2,
+                  "boxHeight": null,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 1,
+                  "labelSize": 16,
+                  "maxCellCount": 100,
+                  "metric": {
+                     "mode": "resource",
+                     "resourceKindMetrics": [],
+                     "resourceMetrics": [
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel18763-1",
+                           "isStringMetric": false,
+                           "label": "System CPU %",
+                           "link": "",
+                           "metricKey": "Application Infrastructure Performance_*_Hardware Resources|CPU|System",
+                           "metricName": "Application Hardware Resources|CPU|System",
+                           "metricUnitId": -1,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "unit": "Auto",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel18763-2",
+                           "isStringMetric": false,
+                           "label": "CPU Busy %",
+                           "link": "",
+                           "metricKey": "Application Infrastructure Performance_*_Hardware Resources|CPU|%Busy",
+                           "metricName": "Application Hardware Resources|CPU|Busy",
+                           "metricUnitId": -1,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "unit": "Auto",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel18763-3",
+                           "isStringMetric": false,
+                           "label": "Disks KB read/sec",
+                           "link": "",
+                           "metricKey": "Application Infrastructure Performance_*_Hardware Resources|Disks|KB read/sec",
+                           "metricName": "Application Hardware Resources|Disks|KB read/sec",
+                           "metricUnitId": null,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "unit": "",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel18763-4",
+                           "isStringMetric": false,
+                           "label": "Disks KB written/sec",
+                           "link": "",
+                           "metricKey": "Application Infrastructure Performance_*_Hardware Resources|Disks|KB written/sec",
+                           "metricName": "Application Hardware Resources|Disks|KB written/sec",
+                           "metricUnitId": null,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "unit": "",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel18763-5",
+                           "isStringMetric": false,
+                           "label": "Mem Free %",
+                           "link": "",
+                           "metricKey": "Application Infrastructure Performance_*_Hardware Resources|Memory|Free %",
+                           "metricName": "Application Hardware Resources|Memory|Free",
+                           "metricUnitId": -1,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "unit": "Auto",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel18763-6",
+                           "isStringMetric": false,
+                           "label": "Mem Used %",
+                           "link": "",
+                           "metricKey": "Application Infrastructure Performance_*_Hardware Resources|Memory|Used %",
+                           "metricName": "Application Hardware Resources|Memory|Used",
+                           "metricUnitId": -1,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "unit": "Auto",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel18763-7",
+                           "isStringMetric": false,
+                           "link": "",
+                           "metricKey": "Application Infrastructure Performance_*_Hardware Resources|Network|Incoming KB/sec",
+                           "metricName": "Application Hardware Resources|Network|Incoming KB/sec",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "handleOldColoring": false,
+                           "id": "extModel18763-8",
+                           "isStringMetric": false,
+                           "link": "",
+                           "metricKey": "Application Infrastructure Performance_*_Hardware Resources|Network|Outgoing KB/sec",
+                           "metricName": "Application Hardware Resources|Network|Outgoing KB/sec",
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceId": "resource:id:0_::_",
+                           "resourceKindId": "002018AppDynamicsAdapterAppDynamics Application",
+                           "resourceName": "AS-RELY",
+                           "yellowBound": null
+                        }
+                     ]
+                  },
+                  "mode": {"layoutMode": "fixedView"},
+                  "oldMetricValues": true,
+                  "periodLength": "dashboardTime",
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 60,
+                  "relationshipMode": {"relationshipMode": 0},
+                  "resInteractionMode": null,
+                  "resource": [],
+                  "roundDecimals": 2,
+                  "selfProvider": {"selfProvider": true},
+                  "showDT": {"showDT": false},
+                  "showMetricName": {"showMetricName": true},
+                  "showMetricUnit": {"showMetricUnit": true},
+                  "showResourceName": {"showResourceName": false},
+                  "showSparkline": {"showSparkline": true},
+                  "title": "Hardware Resources Scoreboard",
+                  "valueSize": 24,
+                  "visualTheme": 7
+               },
+               "gridsterCoords": {
+                  "h": 10,
+                  "w": 6,
+                  "x": 1,
+                  "y": 5
+               },
+               "height": 552,
+               "id": "b169739a-e64e-4757-92db-7fb0c25f6fa2",
+               "title": "Hardware Resources Scoreboard",
+               "type": "Scoreboard"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "impactedBadge": "",
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": [
+                     -1,
+                     0
+                  ]},
+                  "resource": {
+                     "resourceId": "resource:id:1_::_",
+                     "resourceName": "AS-Rely"
+                  },
+                  "selfProvider": {"selfProvider": true},
+                  "title": "Top Alerts",
+                  "topIssuesDisplayLimit": 5
+               },
+               "gridsterCoords": {
+                  "h": 9,
+                  "w": 4,
+                  "x": 9,
+                  "y": 15
+               },
+               "height": 495,
+               "id": "5a46ea74-a4a7-45d4-bdad-3f01fbb034e3",
+               "title": "Top Alerts",
+               "type": "ProblemAlertsList"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "barsCount": 10,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 10,
+                  "filterMode": "tagPicker",
+                  "filterOldMetrics": {"filterOldMetrics": false},
+                  "maxValue": null,
+                  "metric": {
+                     "metricKey": "Overall Application Performance_*_Individual Nodes_*_|Number of Slow Calls",
+                     "name": "Application Performance|Number of Slow Calls"
+                  },
+                  "metricName": "Number of Slow calls",
+                  "metricUnit": {
+                     "metricUnitId": -1,
+                     "metricUnitName": "Auto"
+                  },
+                  "mode": "all",
+                  "orangeBound": 5,
+                  "percentileValue": null,
+                  "redBound": 10,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "regenerationTime": 5,
+                  "relationshipMode": {"relationshipMode": [
+                     -1,
+                     0
+                  ]},
+                  "resource": [],
+                  "resourceKind": [{"id": "resourceKind:id:1_::_"}],
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": true},
+                  "tagFilter": {
+                     "path": ["/source/kind/kind:resourceKind:id:1_::_"],
+                     "value": {
+                        "adapterInstance": [],
+                        "adapterKind": [],
+                        "bus": [],
+                        "collector": [],
+                        "day": [],
+                        "exclaim": false,
+                        "healthRange": [],
+                        "kind": ["resourceKind:id:1_::_"],
+                        "maintenanceSchedule": [],
+                        "state": [],
+                        "status": [],
+                        "tag": [],
+                        "tier": []
+                     }
+                  },
+                  "title": "Top-Nodes (Slow calls)",
+                  "topOption": "metricsHighestUtilization",
+                  "yellowBound": 2
+               },
+               "gridsterCoords": {
+                  "h": 9,
+                  "w": 4,
+                  "x": 5,
+                  "y": 15
+               },
+               "height": 495,
+               "id": "33215267-56d5-4d1f-9097-dfe6254cc27c",
+               "title": "Top-Nodes (Slow calls)",
+               "type": "ParetoAnalysis"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "barsCount": 10,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 10,
+                  "filterMode": "tagPicker",
+                  "filterOldMetrics": {"filterOldMetrics": false},
+                  "maxValue": null,
+                  "metric": {
+                     "metricKey": "Application Infrastructure Performance_*_Individual Nodes_*_Hardware Resources|CPU|%Busy",
+                     "name": "Hardware Resources|CPU|Busy (%)"
+                  },
+                  "metricName": "Busy CPU",
+                  "metricUnit": {
+                     "metricUnitId": -1,
+                     "metricUnitName": "Auto"
+                  },
+                  "mode": "all",
+                  "orangeBound": 25,
+                  "percentileValue": null,
+                  "redBound": 50,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "regenerationTime": 5,
+                  "relationshipMode": {"relationshipMode": [
+                     1,
+                     -1
+                  ]},
+                  "resource": [],
+                  "resourceKind": [{"id": "resourceKind:id:1_::_"}],
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": true},
+                  "tagFilter": {
+                     "path": [
+                        "/source/kind/kind:resourceKind:id:2_::_",
+                        "/source/kind/kind:resourceKind:id:1_::_"
+                     ],
+                     "value": {
+                        "adapterInstance": [],
+                        "adapterKind": [],
+                        "bus": [],
+                        "collector": [],
+                        "day": [],
+                        "exclaim": false,
+                        "healthRange": [],
+                        "kind": [
+                           "resourceKind:id:2_::_",
+                           "resourceKind:id:1_::_"
+                        ],
+                        "maintenanceSchedule": [],
+                        "state": [],
+                        "status": [],
+                        "tag": [],
+                        "tier": []
+                     }
+                  },
+                  "title": "Top-Nodes (CPU Busy)",
+                  "topOption": "metricsHighestUtilization",
+                  "yellowBound": 10
+               },
+               "gridsterCoords": {
+                  "h": 9,
+                  "w": 4,
+                  "x": 1,
+                  "y": 15
+               },
+               "height": 495,
+               "id": "03711f91-93d7-486d-b52e-003c9bfdd778",
+               "title": "Top-Nodes (CPU Busy)",
+               "type": "ParetoAnalysis"
+            }
+         ]
+      },
+      {
+         "adapterName": "VMware vSphere",
+         "autoswitchEnabled": false,
+         "columnCount": 1,
+         "columnProportion": "1",
+         "creationTime": 1637015827615,
+         "dashboardNavigations": {"bf89dc1e-b7c5-4bb2-b166-883eca6fa3a6": [
+            {
+               "id": "90b3551f-b28b-4045-b7f8-7c1462522c8a",
+               "widgets": [{
+                  "id": "d670ffeb-d4f8-4503-92d3-db79fad6fd02",
+                  "interactionType": "resourceId"
+               }]
+            },
+            {
+               "id": "f9362710-dd4b-40f9-a9ec-9ffef2dffb3d",
+               "widgets": []
+            },
+            {
+               "id": "2f8f4b00-8a38-4e47-8455-8bb3529b9179",
+               "widgets": []
+            }
+         ]},
+         "description": "",
+         "disabled": false,
+         "gridsterMaxColumns": 12,
+         "hidden": true,
+         "homeTab": false,
+         "id": "8943fd48-3994-4108-9bfa-9683b651a2f5",
+         "importAttempts": 0,
+         "importComplete": true,
+         "lastUpdateTime": 1637080624303,
+         "lastUpdateUserId": "721480df-18d9-4807-a47f-1c5061ee6ebf",
+         "locked": false,
+         "name": "Appd Dashboarding/FDX - AppD - ShowBack",
+         "namePath": "Appd Dashboarding",
+         "rank": 0,
+         "shared": true,
+         "states": [{
+            "key": "permDashboardTime_dashboard_8943fd48-3994-4108-9bfa-9683b651a2f5",
+            "value": "o%3AdateRange%3Ds%253Alast90Days%5EdateRangeText%3Ds%253ALast%252090%2520days"
+         }],
+         "temporary": false,
+         "userId": "721480df-18d9-4807-a47f-1c5061ee6ebf",
+         "widgetInteractions": [
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "7bc590ae-769f-415d-b389-b81c03969e2e",
+               "widgetIdReceiver": "ffcf5a00-9b3f-47af-9e51-c26a7dc2d8e3"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "c1eeade0-ac65-42a2-ae93-76de9205167d",
+               "widgetIdReceiver": "da28422d-7965-4fe7-baf6-585d5f80c53b"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "da28422d-7965-4fe7-baf6-585d5f80c53b",
+               "widgetIdReceiver": "7bc590ae-769f-415d-b389-b81c03969e2e"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "da28422d-7965-4fe7-baf6-585d5f80c53b",
+               "widgetIdReceiver": "b646b5cb-3384-4541-8ef0-56592dc8e461"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "da28422d-7965-4fe7-baf6-585d5f80c53b",
+               "widgetIdReceiver": "f64a988c-9ca4-4a68-8a69-cfc5afc25a2b"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "da28422d-7965-4fe7-baf6-585d5f80c53b",
+               "widgetIdReceiver": "4768c9be-2f6f-436c-bb68-c8592524f8ff"
+            }
+         ],
+         "widgets": [
+            {
+               "collapsed": false,
+               "config": {
+                  "chartViewItems": [],
+                  "isUpdatedView": true,
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "resource": null,
+                  "selectFirstRow": {"selectFirstRow": false},
+                  "selfProvider": {"selfProvider": false},
+                  "title": "Cost Summary (This Month)",
+                  "traversalSpecId": "",
+                  "viewDefinitionId": "9cd5717c-e8ac-4c44-8509-7ddd8893c72f"
+               },
+               "gridsterCoords": {
+                  "h": 6,
+                  "w": 3,
+                  "x": 4,
+                  "y": 2
+               },
+               "height": 324,
+               "id": "4768c9be-2f6f-436c-bb68-c8592524f8ff",
+               "title": "Cost Summary (This Month)",
+               "type": "View"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "chartViewItems": ["legend"],
+                  "isUpdatedView": true,
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "resource": null,
+                  "selectFirstRow": {"selectFirstRow": false},
+                  "selfProvider": {"selfProvider": false},
+                  "title": "Cost Trend of Selected VM",
+                  "traversalSpecId": "",
+                  "viewDefinitionId": "d436d5da-3389-42c0-832d-5993bdcdc7c8"
+               },
+               "gridsterCoords": {
+                  "h": 6,
+                  "w": 9,
+                  "x": 4,
+                  "y": 15
+               },
+               "height": 324,
+               "id": "ffcf5a00-9b3f-47af-9e51-c26a7dc2d8e3",
+               "states": [{
+                  "key": "perm_toolbarVisible_widget_8943fd48-3994-4108-9bfa-9683b651a2f5_ffcf5a00-9b3f-47af-9e51-c26a7dc2d8e3",
+                  "value": "b%3A0"
+               }],
+               "title": "Cost Trend of Selected VM",
+               "type": "View"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "chartViewItems": [],
+                  "isUpdatedView": true,
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "resource": null,
+                  "selectFirstRow": {"selectFirstRow": true},
+                  "selfProvider": {"selfProvider": false},
+                  "title": "Members of the Group (Select to View Trend)",
+                  "traversalSpecId": "",
+                  "viewDefinitionId": "d3d513b7-ba43-4fda-8c53-6d8101124350"
+               },
+               "gridsterCoords": {
+                  "h": 7,
+                  "w": 9,
+                  "x": 4,
+                  "y": 8
+               },
+               "height": 381,
+               "id": "7bc590ae-769f-415d-b389-b81c03969e2e",
+               "states": [
+                  {
+                     "key": "permSelectedDate_widget_8943fd48-3994-4108-9bfa-9683b651a2f5_7bc590ae-769f-415d-b389-b81c03969e2e",
+                     "value": "s%3A%7B%22minType%22%3A%22.TimeIntervalControl%22%2C%22advancedTimeMode%22%3Afalse%2C%22fromTime%22%3Anull%2C%22unit%22%3A%22DAYS%22%2C%22count%22%3A7%2C%22priorUnit%22%3Anull%2C%22priorCount%22%3Anull%2C%22startSubUnit%22%3Anull%2C%22startPeriod%22%3Anull%2C%22toTime%22%3Anull%2C%22endUnit%22%3Anull%2C%22endCount%22%3Anull%2C%22endSubUnit%22%3Anull%2C%22endPeriod%22%3Anull%7D"
+                  },
+                  {
+                     "key": "perm_toolbarVisible_widget_8943fd48-3994-4108-9bfa-9683b651a2f5_7bc590ae-769f-415d-b389-b81c03969e2e",
+                     "value": "b%3A1"
+                  },
+                  {
+                     "key": "permPageSize_widget_8943fd48-3994-4108-9bfa-9683b651a2f5_7bc590ae-769f-415d-b389-b81c03969e2e",
+                     "value": "n%3A50"
+                  }
+               ],
+               "title": "Members of the Group (Select to View Trend)",
+               "type": "View"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "chartViewItems": ["labels"],
+                  "isUpdatedView": true,
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "resource": null,
+                  "selectFirstRow": {"selectFirstRow": false},
+                  "selfProvider": {"selfProvider": false},
+                  "title": "Potential Savings (Top 10)",
+                  "traversalSpecId": "",
+                  "viewDefinitionId": "6a431c9b-ce07-4f77-8186-d42d464e5851"
+               },
+               "gridsterCoords": {
+                  "h": 6,
+                  "w": 3,
+                  "x": 10,
+                  "y": 2
+               },
+               "height": 324,
+               "id": "f64a988c-9ca4-4a68-8a69-cfc5afc25a2b",
+               "title": "Potential Savings (Top 10)",
+               "type": "View"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "chartViewItems": ["labels"],
+                  "isUpdatedView": true,
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "resource": null,
+                  "selectFirstRow": {"selectFirstRow": false},
+                  "selfProvider": {"selfProvider": false},
+                  "title": "VM Cost Distribution (Top 100)",
+                  "traversalSpecId": "",
+                  "viewDefinitionId": "4819e5b6-28f0-4df1-a865-269acbe3323f"
+               },
+               "gridsterCoords": {
+                  "h": 6,
+                  "w": 3,
+                  "x": 7,
+                  "y": 2
+               },
+               "height": 324,
+               "id": "b646b5cb-3384-4541-8ef0-56592dc8e461",
+               "title": "VM Cost Distribution (Top 100)",
+               "type": "View"
+            },
+            {
+               "collapsed": true,
+               "config": {
+                  "editorData": "",
+                  "locationFile": "",
+                  "locationUrl": "ContentPack/VMWARE/conf/pages/showback_vm/index.html?locale=%locale%",
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "title": "About this Dashboard (Expand to View)",
+                  "titleLocalized": "About this Dashboard (Expand to View)",
+                  "viewModeHTML": true
+               },
+               "gridsterCoords": {
+                  "h": 1,
+                  "w": 12,
+                  "x": 1,
+                  "y": 1
+               },
+               "height": 323,
+               "id": "518e5a4d-889e-40ce-ba38-6bb8ff3164dd",
+               "title": "About this Dashboard (Expand to View)",
+               "type": "TextDisplay"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 1,
+                  "filterMode": "tagPicker",
+                  "mode": "resource",
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": 0},
+                  "resource": [{
+                     "id": "resource:id:0_::_",
+                     "name": "AS-RELY"
+                  }],
+                  "selectFirstRow": {"selectFirstRow": true},
+                  "selfProvider": {"selfProvider": true},
+                  "tagFilter": null,
+                  "title": "AppD Application Selection"
+               },
+               "gridsterCoords": {
+                  "h": 6,
+                  "w": 3,
+                  "x": 1,
+                  "y": 2
+               },
+               "height": 324,
+               "id": "c1eeade0-ac65-42a2-ae93-76de9205167d",
+               "states": [{
+                  "key": "permResGrid_widget_8943fd48-3994-4108-9bfa-9683b651a2f5_c1eeade0-ac65-42a2-ae93-76de9205167d",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253AresourceRating%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah47%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }],
+               "title": "AppD Application Selection",
+               "type": "ResourceList"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 4,
+                  "filterMode": "tagPicker",
+                  "mode": "all",
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": -1},
+                  "resource": [{
+                     "id": "resource:id:0_::_",
+                     "name": "AS-RELY"
+                  }],
+                  "selectFirstRow": {"selectFirstRow": true},
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": {
+                     "path": ["/source/kind/kind:resourceKind:id:11_::_"],
+                     "value": {
+                        "adapterInstance": [],
+                        "adapterKind": [],
+                        "bus": [],
+                        "collector": [],
+                        "day": [],
+                        "exclaim": false,
+                        "healthRange": [],
+                        "kind": ["resourceKind:id:11_::_"],
+                        "maintenanceSchedule": [],
+                        "state": [],
+                        "status": [],
+                        "tag": [],
+                        "tier": []
+                     }
+                  },
+                  "title": "AppD Tiering Selection"
+               },
+               "gridsterCoords": {
+                  "h": 13,
+                  "w": 3,
+                  "x": 1,
+                  "y": 8
+               },
+               "height": 723,
+               "id": "da28422d-7965-4fe7-baf6-585d5f80c53b",
+               "states": [
+                  {
+                     "key": "perm_toolbarVisible_widget_8943fd48-3994-4108-9bfa-9683b651a2f5_da28422d-7965-4fe7-baf6-585d5f80c53b",
+                     "value": "b%3A1"
+                  },
+                  {
+                     "key": "permResGrid_widget_8943fd48-3994-4108-9bfa-9683b651a2f5_da28422d-7965-4fe7-baf6-585d5f80c53b",
+                     "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253AresourceRating%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah47%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253Aname%2525255Edirection%2525253Ds%252525253AASC%2525255Eid%2525253Ds%252525253Aname"
+                  }
+               ],
+               "title": "AppD Tiering Selection",
+               "type": "ResourceList"
+            }
+         ]
+      }
+   ],
+   "entries": {
+      "resource": [
+         {
+            "adapterKindKey": "Container",
+            "identifiers": [],
+            "internalId": "resource:id:1_::_",
+            "name": "AS-Rely",
+            "resourceKindKey": "Environment"
+         },
+         {
+            "adapterKindKey": "AppDynamicsAdapter",
+            "identifiers": [
+               {
+                  "key": "appd_entityid",
+                  "value": "591"
+               },
+               {
+                  "key": "appd_instanceid",
+                  "value": "fedex1-test.saas.appdynamics.com/"
+               }
+            ],
+            "internalId": "resource:id:0_::_",
+            "name": "AS-RELY",
+            "resourceKindKey": "AppDynamics Application"
+         }
+      ],
+      "resourceKind": [
+         {
+            "adapterKindKey": "AppDynamicsAdapter",
+            "internalId": "resourceKind:id:0_::_",
+            "resourceKindKey": "AppDynamics Application"
+         },
+         {
+            "adapterKindKey": "AppDynamicsAdapter",
+            "internalId": "resourceKind:id:2_::_",
+            "resourceKindKey": "AppDynamics Host"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:4_::_",
+            "resourceKindKey": "Datacenter"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:7_::_",
+            "resourceKindKey": "HostSystem"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:3_::_",
+            "resourceKindKey": "VMwareAdapter Instance"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:5_::_",
+            "resourceKindKey": "VirtualMachine"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:6_::_",
+            "resourceKindKey": "ClusterComputeResource"
+         },
+         {
+            "adapterKindKey": "AppDynamicsAdapter",
+            "internalId": "resourceKind:id:1_::_",
+            "resourceKindKey": "AppDynamics Node"
+         },
+         {
+            "adapterKindKey": "VirtualAndPhysicalSANAdapter",
+            "internalId": "resourceKind:id:9_::_",
+            "resourceKindKey": "VirtualSANDiskGroup"
+         },
+         {
+            "adapterKindKey": "AppDynamicsAdapter",
+            "internalId": "resourceKind:id:11_::_",
+            "resourceKindKey": "AppDynamics Tier"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:8_::_",
+            "resourceKindKey": "Datastore"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:10_::_",
+            "resourceKindKey": "VmwareDistributedVirtualSwitch"
+         }
+      ]
+   },
+   "uuid": "31a2fd5f-11e2-4634-b2bb-32b1ffb911dc"
+}
